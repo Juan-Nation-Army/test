@@ -1,0 +1,27 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "shengchen.vscode-checkstyle",
+        "streetsidesoftware.code-spell-checker",
+        "ryanluker.vscode-coverage-gutters"
+      ],
+      "openFiles": ["src/demo/HelloWorld.java", "README.md"]
+    },
+    "codespaces": {
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "shengchen.vscode-checkstyle",
+        "streetsidesoftware.code-spell-checker",
+        "ryanluker.vscode-coverage-gutters"
+      ],
+      "openFiles": ["src/demo/HelloWorld.java", "README.md"]
+    }
+  }
+}
